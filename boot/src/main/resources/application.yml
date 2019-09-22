@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: service-a
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        fail-fast: true
+  profiles:
+    active: dev
+server:
+  port: 8081
+
+feign:
+  httpclient:
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50
