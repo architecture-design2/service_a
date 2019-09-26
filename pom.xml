@@ -19,8 +19,8 @@
         <module>endpoint</module>
         <module>sdk</module>
         <module>integration-spi</module>
-        <module>integration-local</module>
-        <module>integration-rpc</module>
+        <module>integration-b-local</module>
+        <module>integration-b-rpc</module>
         <module>service</module>
     </modules>
 
