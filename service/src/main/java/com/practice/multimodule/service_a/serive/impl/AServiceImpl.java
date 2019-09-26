@@ -1,7 +1,7 @@
 package com.practice.multimodule.service_a.serive.impl;
 
 import com.practice.multimodule.service_a.serive.AService;
-import com.practice.multimodule.service_a.integration.spi.b.ServiceBClient;
+import com.practice.multimodule.service_a.integration.b.spi.ServiceBClient;
 import org.springframework.stereotype.Service;
 
 @Service

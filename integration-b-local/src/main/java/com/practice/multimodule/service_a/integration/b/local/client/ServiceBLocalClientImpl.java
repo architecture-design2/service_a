@@ -1,6 +1,6 @@
 package com.practice.multimodule.service_a.integration.b.local.client;
 
-import com.practice.multimodule.service_a.integration.spi.b.ServiceBClient;
+import com.practice.multimodule.service_a.integration.b.spi.ServiceBClient;
 import com.practice.multimodule.service_b.endpoint.ServiceBController;
 import org.springframework.stereotype.Component;
 
