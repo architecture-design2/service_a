@@ -1,6 +1,6 @@
 package com.practice.multimodule.service_a.endpoint;
 
-import com.practice.multimodule.service_a.api.AService;
+import com.practice.multimodule.service_a.serive.AService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AHelloController {
 
     private final AService aService;
-
 
     public AHelloController(AService aService) {
         this.aService = aService;
