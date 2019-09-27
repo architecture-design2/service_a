@@ -5,12 +5,12 @@ import com.practice.multimodule.b.api.BService;
 import org.springframework.stereotype.Component;
 
 @Component
-public class BLocalSpiImpl implements BSpi {
+public class BLocalClient implements BSpi {
 
 
     private final BService bService;
 
-    public BLocalSpiImpl(BService bService) {
+    public BLocalClient(BService bService) {
         this.bService = bService;
     }
 
