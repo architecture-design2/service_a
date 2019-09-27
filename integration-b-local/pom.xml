@@ -15,7 +15,7 @@
         <!--project-->
         <dependency>
             <groupId>com.practice.multimodule.service_a</groupId>
-            <artifactId>integration-spi</artifactId>
+            <artifactId>integration-b-spi</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!--         micro service -->
