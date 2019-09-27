@@ -1,6 +1,6 @@
-package com.practice.multimodule.a.impl;
+package com.practice.multimodule.a.service.impl;
 
-import com.practice.multimodule.a.api.AService;
+import com.practice.multimodule.a.service.AService;
 import com.practice.multimodule.a.integration.b.spi.BSpi;
 import org.springframework.stereotype.Service;
 

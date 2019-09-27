@@ -1,6 +1,6 @@
 package com.practice.multimodule.a.endpoint;
 
-import com.practice.multimodule.a.api.AService;
+import com.practice.multimodule.a.service.AService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

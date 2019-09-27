@@ -1,4 +1,4 @@
-package com.practice.multimodule.a.api;
+package com.practice.multimodule.a.service;
 
 public interface AService {
 
