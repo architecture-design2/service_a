@@ -1,19 +1,19 @@
 package com.practice.multimodule.a.impl;
 
 import com.practice.multimodule.a.api.AService;
-import com.practice.multimodule.a.integration.b.spi.BClient;
+import com.practice.multimodule.a.integration.b.spi.BSpi;
 import org.springframework.stereotype.Service;
 
 @Service
 public class AServiceImpl implements AService {
-    private final BClient BClient;
+    private final BSpi bSpi;
 
-    public AServiceImpl(BClient BClient) {
-        this.BClient = BClient;
+    public AServiceImpl(BSpi bSpi) {
+        this.bSpi = bSpi;
     }
 
     @Override
     public String hello(String username) {
-        return BClient.hello(username);
+        return bSpi.hello(username);
     }
 }

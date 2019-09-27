@@ -1,16 +1,16 @@
 package com.practice.multimodule.a.integration.b.local.client;
 
-import com.practice.multimodule.a.integration.b.spi.BClient;
+import com.practice.multimodule.a.integration.b.spi.BSpi;
 import com.practice.multimodule.b.api.BService;
 import org.springframework.stereotype.Component;
 
 @Component
-public class BLocalClientImpl implements BClient {
+public class BLocalSpiImpl implements BSpi {
 
 
     private final BService bService;
 
-    public BLocalClientImpl(BService bService) {
+    public BLocalSpiImpl(BService bService) {
         this.bService = bService;
     }
 
