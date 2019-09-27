@@ -21,7 +21,7 @@
         <module>integration-b-spi</module>
         <module>integration-b-local</module>
         <module>integration-b-rpc</module>
-        <module>service</module>
+        <module>core</module>
     </modules>
 
     <properties>
