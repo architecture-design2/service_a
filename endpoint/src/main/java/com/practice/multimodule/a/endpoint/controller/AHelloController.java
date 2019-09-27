@@ -1,4 +1,4 @@
-package com.practice.multimodule.a.endpoint;
+package com.practice.multimodule.a.endpoint.controller;
 
 import com.practice.multimodule.a.service.AService;
 import org.springframework.web.bind.annotation.PathVariable;
